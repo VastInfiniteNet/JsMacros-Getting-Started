@@ -6,7 +6,7 @@ This setup is targeted towards users:
 - running Minecraft 1.18.2, but same principles *should* apply to other Minecraft versions.
 
 
-If you already have JS Macros installed, and looking for instructions on how to run a script you downloaded, go to the "Running a script" section.
+*If you already have JS Macros installed, and looking for instructions on how to run a script you downloaded, go to the "Running a script" section.*
 
 # Getting Started
 1. Open MultiMC!
@@ -41,15 +41,39 @@ If you already have JS Macros installed, and looking for instructions on how to 
         If this your first mod installed for the instance, the `Loader mods` list should look like: ![Image of Loader mods list](https://pomf2.lain.la/f/5dmxfjvr.png)
 
 
+# Finding Where to Put a Script
 
+The folder to put your scripts is typically `Macros/`. The full path will depend on where your MultiMC/launcher is, but generally looks like:
 
+`E:/path/to/MultiMC/instances/INSTANCE-NAME/.minecraft/config/jsMacros/Macros/`
 
+Drag any scripts you may want to run into that folder. It is fine if you add folders.
+
+In the image below I placed a script I want to run, `helloWorld.js` in the `Macros/` folder. Note the path.
+
+![Image of Macros folder that stores scripts to run.](https://pomf2.lain.la/f/srxnudqr.png)
 
 # Running a script
-So you know run a script someone else gave you? First make sure trust the script you are running. If you are able to readf JavaScript or whatever language it is written in, give it a read before running it! Always practice some form of OPSEC.
+So you wanna run a script someone else gave you? 
+
+First make sure trust the script you are running. If you are able to read JavaScript or whatever language it is written in, give it a read before running it! Always practice some form of OPSEC.
 
 1. Start the game!
 
 
-1. 
+1. Open the JS Macros menu.
+    1. Find JS Macros menu key in the key bindings. Default should be `K`. Press it.
+
+1. Add the script to a key.
+    1. Click the `+` next to `Run`.
+    1. Select the file to run by clicking the `./`. Navigate to where the script is, click it, and click `Select`
+    1. Set the key binding by clicking on empty box to left of filename and pressing the key you want script to be binded to.
+    1. Enable the binding by clicking on red `Disabled` button.
+    
+    In this case I am binding a script, `hellowWorld.js` to the `y` button: 
+    ![Image of JS Macros keys menu](https://pomf2.lain.la/f/hlhvm8bs.png)
+
+1. Run the Scripts!
+
+- Press the button you binded the script to! 
 
