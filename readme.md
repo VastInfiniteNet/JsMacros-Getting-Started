@@ -66,9 +66,11 @@ First make sure trust the script you are running. If you are able to read JavaSc
 
 1. Add the script to a key.
     1. Click the `+` next to `Run`.
+
     1. Select the file to run by clicking the `./`. Navigate to where the script is, click it, and click `Select`
             
-            NOTE: IF YOU DON'T SEE THE SCRIPT YOU WANT YOU MAY NEED TO CONSULT THE ABOVE `Finding Where to Put a Script` SECTION 
+        *NOTE: IF YOU DON'T SEE THE SCRIPT YOU WANT YOU MAY NEED TO CONSULT THE ABOVE* `Finding Where to Put a Script` *SECTION*
+
     1. Set the key binding by clicking on empty box to left of filename and pressing the key you want script to be binded to.
     1. Enable the binding by clicking on red `Disabled` button.
     
