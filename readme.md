@@ -3,15 +3,14 @@ Hello there! The goal of this document is to teach one how to setup JS Macros Mo
 
 This setup is targeted towards users: 
 - using MultiMC, but similar principles *should* apply to other Minecraft launchers.
-- running Minecraft 1.18.2, but same principles *should* apply to other Minecraft versions.
+- running Minecraft 1.18.2, but the same principles *should* apply to other Minecraft versions.
 
 
-*If you already have JS Macros installed, and looking for instructions on how to run a script you downloaded, go to the "Running a script" section.*
+*If you already have JS Macros installed, and looking for instructions on how to run a script you downloaded, go to the "__Running a script__" section.*
 
 # Getting Started
 1. Open MultiMC!
     - If you haven't already, sign in into your minecraft account.
-    - Similarly, make a new instance if you are using an existing one.
 
 
 1. Install Fabric mod loader.
@@ -45,7 +44,7 @@ This setup is targeted towards users:
 
 The folder to put your scripts is typically `Macros/`. The full path will depend on where your MultiMC/launcher is, but generally looks like:
 
-`E:/path/to/MultiMC/instances/INSTANCE-NAME/.minecraft/config/jsMacros/Macros/`
+`C:/path/to/MultiMC/instances/INSTANCE-NAME/.minecraft/config/jsMacros/Macros/`
 
 Drag any scripts you may want to run into that folder. It is fine if you add folders.
 
@@ -81,3 +80,7 @@ First make sure trust the script you are running. If you are able to read JavaSc
 
 - Press the button you binded the script to! 
 
+# Questions or Contact
+If you run into any problems or have other questions feel free to reach out to me
+- Via discord: MotokoKusanagi#5346
+- Via email: screwthisusernameprocess@gmail.com
